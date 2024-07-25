@@ -5,140 +5,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portafolio</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./img/icon.svg" type="image/svg+xml" />
     <script
       src="https://kit.fontawesome.com/60c08b7f40.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="welcome-section">
       <p class="p">I'm</p>
-      <h1 class="title">Isaac <span class="highlight-text">Mendoza</span></h1>
+      <h1 class="title">Isaac Mendoza</h1>
       <p class="p">
         Responsive web designer and
         <span class="highlight-text">Software engineering</span> student in
-        Colombia. Ready to develop and add value to your website.
+        Colombia. Ready to <span class="highlight-text">develop</span> and
+        <span class="highlight-text">add value</span> to your website.
       </p>
-      <nav class="navbar">
+      <nav id="navbar">
         <menu class="nav-menu">
           <li class="menu-item">
             <a href="#projects" class="anchor"
-              ><i class="fa-solid fa-code"></i
-            ></a>
+              ><i class="fa-solid fa-code icon"></i>Projects</a
+            >
           </li>
           <li class="menu-item">
             <a href="#about-me" class="anchor"
-              ><i class="fa-solid fa-user icon"></i
-            ></a>
+              ><i class="fa-solid fa-user icon"></i>About me</a
+            >
           </li>
         </menu>
       </nav>
       <p class="p">What are you waiting for?</p>
-      <a
-        href="https://www.linkedin.com/in/isaac-mendoza-herrera-5ba94b2a6/"
-        class="anchor"
-        ><i class="fa-brands fa-linkedin icon"></i
-      ></a>
-      <a href="#contact" class="anchor"
-        ><span class="highlight-text">Contact me </span>
-        <i class="fa-regular fa-paper-plane icon"></i
-      ></a>
+      <div class="container-contact">
+        <a href="#contact" class="anchor"
+          >Contact me <i class="fa-regular fa-paper-plane icon"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/isaac-mendoza-herrera-5ba94b2a6/"
+          class="anchor"
+          ><i class="fa-brands fa-linkedin icon linkedin"></i
+        ></a>
+      </div>
     </header>
     <section class="section" id="projects">
-      <h2 class="title"><i class="fa-solid fa-laptop-code"></i> Projects</h2>
+      <h2 class="title"><i class="fa-solid fa-code icon"></i>Projects</h2>
       <div class="grid">
         <!-- ARTICLE CARD PROJECT -->
         <article class="grid-card">
-          <h3 class="title-card">
+          <h3 class="title">
             Survey Form <span class="small-text">(mock)</span>
           </h3>
-          <img src="#" alt="Survey Form Image" class="image" />
+          <div class="container-image">
+            <img
+              src="./img/survey-form-image.webp"
+              alt="Survey Form Image"
+              class="image"
+            />
+          </div>
           <ul class="list">
             <li class="list-item">
               <a
                 href="https://github.com/IsaacMendozaDev/survey-form-fcc.git"
                 class="anchor"
-                ><i class="fa-brands fa-github"></i> Code</a
+                ><i class="fa-brands fa-github icon"></i>Code</a
               >
             </li>
             <li class="list-item">
               <a
                 href="https://survey-form-fcc-practice.netlify.app/"
                 class="anchor"
-                ><i class="fa-solid fa-link"></i> Preview</a
+                ><i class="fa-solid fa-link icon"></i>Preview</a
               >
             </li>
           </ul>
         </article>
 
         <article class="grid-card">
-          <h3 class="title-card">TypeScript Technical Documentation</h3>
-          <img
-            src="#"
-            alt="TypeScript Technical Documentation Image"
-            class="image"
-          />
+          <h3 class="title">TypeScript Technical Documentation</h3>
+          <div class="container-image">
+            <img
+              src="./img/technical-documentation-image.webp"
+              alt="TypeScript Technical Documentation Image"
+              class="image"
+            />
+          </div>
           <ul class="list">
             <li class="list-item">
               <a
                 href="https://github.com/IsaacMendozaDev/technical-documentation-page-fcc"
                 class="anchor"
-                ><i class="fa-brands fa-github"></i> Code</a
+                ><i class="fa-brands fa-github icon"></i>Code</a
               >
             </li>
             <li class="list-item">
               <a
                 href="https://technical-documentation-typescript.netlify.app/"
                 class="anchor"
-                ><i class="fa-solid fa-link"></i> Preview</a
+                ><i class="fa-solid fa-link icon"></i>Preview</a
               >
             </li>
           </ul>
         </article>
 
         <article class="grid-card">
-          <h3 class="title-card">Eren Tribute Page</h3>
-          <img
-            src="#"
-            alt="TypeScript Technical Documentation Image"
-            class="image"
-          />
+          <h3 class="title">Eren Tribute Page</h3>
+          <div class="container-image">
+            <img
+              src="./img/tribute-page-image.webp"
+              alt="TypeScript Technical Documentation Image"
+              class="image"
+            />
+          </div>
           <ul class="list">
             <li class="list-item">
               <a
                 href="https://github.com/IsaacMendozaDev/tribute-page-fcc"
                 class="anchor"
-                ><i class="fa-brands fa-github"></i> Code</a
+                ><i class="fa-brands fa-github icon"></i>Code</a
               >
             </li>
             <li class="list-item">
               <a href="https://eren-tribute-page.netlify.app/" class="anchor"
-                ><i class="fa-solid fa-link"></i> Preview</a
+                ><i class="fa-solid fa-link icon"></i>Preview</a
               >
             </li>
           </ul>
         </article>
 
         <article class="grid-card">
-          <h3 class="title-card">My House School Landing Page</h3>
-          <img
-            src="#"
-            alt="TypeScript Technical Documentation Image"
-            class="image"
-          />
+          <h3 class="title">My House School Landing Page</h3>
+          <div class="container-image">
+            <img
+              src="./img/product-landing-image.webp"
+              alt="TypeScript Technical Documentation Image"
+              class="image"
+            />
+          </div>
           <ul class="list">
             <li class="list-item">
               <a
                 href="https://github.com/IsaacMendozaDev/product-landing-page-fcc"
                 class="anchor"
-                ><i class="fa-brands fa-github"></i> Code</a
+                ><i class="fa-brands fa-github icon"></i>Code</a
               >
             </li>
             <li class="list-item">
               <a
                 href="https://myhousechildrensschool.netlify.app/"
                 class="anchor"
-                ><i class="fa-solid fa-link"></i> Preview</a
+                ><i class="fa-solid fa-link icon"></i>Preview</a
               >
             </li>
           </ul>
@@ -146,7 +161,9 @@
       </div>
     </section>
     <section class="section" id="about-me">
-      <h2 class="title"><i class="fa-solid fa-address-card"></i> About me</h2>
+      <h2 class="title">
+        <i class="fa-solid fa-address-card icon"></i>About me
+      </h2>
 
       <p class="p">
         Estudiante de
@@ -155,18 +172,18 @@
         <span class="highlight-text">desarrollo de software.</span> Knowledge in
         technologies such as
         <span class="highlight-text html"
-          ><i class="fa-brands fa-html5 icon"></i> HTML</span
+          ><i class="fa-brands fa-html5 icon"></i>HTML</span
         >,
         <span class="highlight-text css"
-          ><i class="fa-brands fa-css3-alt icon"></i> CSS</span
+          ><i class="fa-brands fa-css3-alt icon"></i>CSS</span
         >,
         <span class="highlight-text js"
-          ><i class="fa-brands fa-js icon"></i> JavaScript</span
+          ><i class="fa-brands fa-js icon"></i>JavaScript</span
         >,
         <span class="highlight-text react"
-          ><i class="fa-brands fa-react icon"></i> React</span
+          ><i class="fa-brands fa-react icon"></i>React</span
         >, among other
-        <span class="highlight-text">UI/UX libraries. </span>
+        <span class="highlight-text">UI/UX libraries.</span>
       </p>
       <p class="p">
         With <span class="highlight-text">proactive attitude</span> for the
@@ -193,27 +210,30 @@
       <ul class="list">
         <li class="list-item">
           <a href="https://www.linkedin.com/in/isaacmendozadev/" class="anchor"
-            ><i class="fa-brands fa-linkedin icon"></i> LinkedIn</a
+            ><i class="fa-brands fa-linkedin icon"></i>LinkedIn</a
           >
         </li>
         <li class="list-item">
-          <a href="https://github.com/IsaacMendozaDev" class="anchor"
-            ><i class="fa-brands fa-github icon"></i> Github</a
+          <a
+            href="https://github.com/IsaacMendozaDev"
+            class="anchor"
+            id="profile-link"
+            ><i class="fa-brands fa-github icon"></i>Github</a
           >
         </li>
         <li class="list-item">
           <a href="https://www.instagram.com/isaac_mdoza/" class="anchor"
-            ><i class="fa-brands fa-instagram icon"></i> Instagram</a
+            ><i class="fa-brands fa-instagram icon"></i>Instagram</a
           >
         </li>
         <li class="list-item">
           <a href="tel:3108945110" class="anchor"
-            ><i class="fa-solid fa-mobile icon"></i> Call me</a
+            ><i class="fa-solid fa-mobile icon"></i>Call me</a
           >
         </li>
         <li class="list-item">
           <a href="mailto:isaacmendoza0216@gmail.com" class="anchor"
-            ><i class="fa-solid fa-at icon"></i> Email me</a
+            ><i class="fa-solid fa-at icon"></i>Email me</a
           >
         </li>
       </ul>
