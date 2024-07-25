@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portafolio</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" href="./img/icon.svg" type="image/svg+xml" />
     <script
@@ -52,7 +52,7 @@
       <div class="grid">
         <!-- ARTICLE CARD PROJECT -->
         <article class="grid-card">
-          <h3 class="title">
+          <h3 class="title project-tile">
             Survey Form <span class="small-text">(mock)</span>
           </h3>
           <div class="container-image">
@@ -81,7 +81,7 @@
         </article>
 
         <article class="grid-card">
-          <h3 class="title">TypeScript Technical Documentation</h3>
+          <h3 class="title project-tile">TypeScript Technical Documentation</h3>
           <div class="container-image">
             <img
               src="./img/technical-documentation-image.webp"
@@ -108,7 +108,7 @@
         </article>
 
         <article class="grid-card">
-          <h3 class="title">Eren Tribute Page</h3>
+          <h3 class="title project-tile">Eren Tribute Page</h3>
           <div class="container-image">
             <img
               src="./img/tribute-page-image.webp"
@@ -133,7 +133,7 @@
         </article>
 
         <article class="grid-card">
-          <h3 class="title">My House School Landing Page</h3>
+          <h3 class="title project-tile">My House School Landing Page</h3>
           <div class="container-image">
             <img
               src="./img/product-landing-image.webp"
@@ -164,49 +164,59 @@
       <h2 class="title">
         <i class="fa-solid fa-address-card icon"></i>About me
       </h2>
+      <div class="flex">
+        <div class="container-text">
+          <p class="p">
+            <span class="highlight-text">Software Engineering</span> student,
+            with interest in the field of software development. Knowledge in
+            technologies such as
+            <span class="highlight-text html"
+              ><i class="fa-brands fa-html5 icon"></i>HTML</span
+            >,
+            <span class="highlight-text css"
+              ><i class="fa-brands fa-css3-alt icon"></i>CSS</span
+            >,
+            <span class="highlight-text js"
+              ><i class="fa-brands fa-js icon"></i>JavaScript</span
+            >,
+            <span class="highlight-text react"
+              ><i class="fa-brands fa-react icon"></i>React</span
+            >, among other
+            <span class="highlight-text">UI/UX libraries.</span>
+          </p>
+          <p class="p">
+            With <span class="highlight-text">proactive attitude</span> for the
+            realization of projects, focused on
+            <span class="highlight-text">customer satisfaction</span>. Motivated
+            to learn new skills, knowledge and people in the technology
+            environment.
+          </p>
+        </div>
 
-      <p class="p">
-        Estudiante de
-        <span class="highlight-text"> Ingeniería de Sistemas,</span> con interés
-        en el campo del
-        <span class="highlight-text">desarrollo de software.</span> Knowledge in
-        technologies such as
-        <span class="highlight-text html"
-          ><i class="fa-brands fa-html5 icon"></i>HTML</span
-        >,
-        <span class="highlight-text css"
-          ><i class="fa-brands fa-css3-alt icon"></i>CSS</span
-        >,
-        <span class="highlight-text js"
-          ><i class="fa-brands fa-js icon"></i>JavaScript</span
-        >,
-        <span class="highlight-text react"
-          ><i class="fa-brands fa-react icon"></i>React</span
-        >, among other
-        <span class="highlight-text">UI/UX libraries.</span>
-      </p>
-      <p class="p">
-        With <span class="highlight-text">proactive attitude</span> for the
-        realization of projects, focused on
-        <span class="highlight-text">customer satisfaction</span>. Motivated to
-        learn new skills, knowledge and people in the technology environment.
-      </p>
-      <div class="container-images">
-        <img
-          src="https://images.freeimages.com/images/large-previews/33a/web-design-1243586.jpg?fmt=webp&h=350"
-          alt="Design Web letters image"
-          class="image"
-        />
-        <img
-          src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="SEO letters image"
-          class="image"
-        />
+        <div class="mosaico">
+          <div class="container-image">
+            <img
+              src="https://images.freeimages.com/images/large-previews/33a/web-design-1243586.jpg?fmt=webp&h=350"
+              alt="Design Web letters image"
+              class="image"
+            />
+          </div>
+          <div class="container-image">
+            <img
+              src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="SEO letters image"
+              class="image"
+            />
+          </div>
+        </div>
       </div>
     </section>
     <section class="section" id="contact">
-      <h2 class="title">Do you want to talk?</h2>
-      <p class="p">You can find me in:</p>
+      <h2 class="title">
+        Do you <span class="highlight-text"> want</span> to
+        <span class="highlight-text">talk?</span>
+      </h2>
+      <p class="p">You can find me in</p>
       <ul class="list">
         <li class="list-item">
           <a href="https://www.linkedin.com/in/isaacmendozadev/" class="anchor"
@@ -218,6 +228,7 @@
             href="https://github.com/IsaacMendozaDev"
             class="anchor"
             id="profile-link"
+            target="_blank"
             ><i class="fa-brands fa-github icon"></i>Github</a
           >
         </li>
